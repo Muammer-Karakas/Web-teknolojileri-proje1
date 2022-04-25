@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: url(mastiff-2808768_1280.jpg);
+    background-size: cover;
+
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(202, 130, 43, 0.4)
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style:none ;
+    display:inline-block;
+    margin:0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration:none;
+    font-size:20px;
+    padding:6px 13px;
+    font-family:Roboto;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:#d41c54;
+    border-radius:20px;
+}
+
+.box{
+    width:500px;
+    background: #25c3d1;
+    padding:50px;
+    text-align: center;
+    margin: auto;
+    margin-top:5%;
+    color: #fff;
+    font-family: sans-serif;
+}
+.box img{
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h4{
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a{
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
