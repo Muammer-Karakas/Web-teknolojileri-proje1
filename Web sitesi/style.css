@@ -84,3 +84,33 @@ ul{
 .box li a:hover{
     color: #b9b9b9;
 }
+
+.outline{
+    width: 600px;
+    background: #5ac5ef;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top:3%;
+    color: rgba(167, 11, 11, 0.885);
+    font-family: cursive;
+    margin-bottom: 3%;
+}
+.list img{
+    list-style: none;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    padding: 10px;
+}
+.list h1{
+    color:rgba(0, 0, 0, 0.9);
+}
+.list ul li a{
+    color: rgb(252, 152, 152);
+    margin-left: 50px;
+}
+.list a{
+    color: #f0acb9;
+    margin-left: 50px;
+}
