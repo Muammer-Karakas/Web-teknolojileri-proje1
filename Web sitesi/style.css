@@ -2,9 +2,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(mastiff-2808768_1280.jpg);
+    background: url(background.jpg);
     background-size: cover;
-
 }
 .navbar{
     width: 100%;
@@ -43,6 +42,7 @@ body{
     margin-top:5%;
     color: #fff;
     font-family: sans-serif;
+    margin-bottom: 5%;
 }
 .box img{
     border-radius:50%;
@@ -98,8 +98,8 @@ ul{
 }
 .list img{
     list-style: none;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     cursor: pointer;
     padding: 10px;
 }
@@ -113,4 +113,41 @@ ul{
 .list a{
     color: #f0acb9;
     margin-left: 50px;
+}
+.box2{
+    width: 600px;
+    background: #26ecc1;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top:3%;
+    margin-bottom: 3%;
+    font-family: cursive;
+    color: rgba(151, 11, 46, 0.885);
+}
+.box2 section table{   
+    padding-left: 160px;
+}
+
+.box2 section h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box3{
+    border-radius: 8%;
+    width: 800px;
+    background: #cf987b;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top:3%;
+    margin-bottom: 3%;
+}
+.box3 img{
+    border-radius: 10%;
+    list-style: none;
+    width: 320px;
+    height:230px;
+    padding: 5px;
 }
