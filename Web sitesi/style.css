@@ -145,6 +145,23 @@ ul{
     letter-spacing: 2px;
     font-weight: 100;
 }
+.box5{
+    border-style: solid;
+    border-width:5px;
+    border-radius: 10%;
+    width: 600px;
+    background: #f0acb9;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-family: cursive;
+    color: #770c1a;
+    align-items: center;
+    justify-content: center;
+
+}
 .box3{
     border-radius: 8%;
     width: 800px;
