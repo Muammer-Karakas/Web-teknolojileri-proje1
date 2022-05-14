@@ -18,6 +18,8 @@ echo "$a4";
 echo "$a5""""$a6""""$a7";
 echo "--------";
 echo "$a8";
+
+echo "Localhost kullanmama rağmen sayfaya yansıtamadım,araştırdım ancak malesef bir sonuca varamadım.";
 }
 
 else{
